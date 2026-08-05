@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejemplo Tres</title>
+</head>
+
+<body>
+
+<header>
+
+    <h1>ESTE ES MI EJERCICIO</h1>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <section>
+
+        <h2>Esta es la sección uno</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda tempore debitis ea praesentium hic illum.</p>
+
+        <img src="./images/imagen.png" alt="birds" width="500">
+
+    </section>
+
+    <section>
+
+        <h2>Esta es la sección dos</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum qui impedit corporis tempora delectus blanditiis.</p>
+
+        <img src="./images/imagen2.png" alt="fish" width="500">
+
+    </section>
+
+    <section>
+
+        <h2>Esta es la sección tres</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum qui impedit corporis tempora delectus blanditiis.</p>
+
+        <img src="./images/imagen3.png" alt="iguana" width="500">
+
+    </section>
+
+    <section>
+
+        <h2>Formulario de inscripción</h2>
+
+        <form action="/registro" method="post">
+
+            <fieldset>
+
+                <legend>Formulario de inscripción al curso</legend>
+
+                <div>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text"
+                           id="nombre"
+                           name="nombre"
+                           required
+                           minlength="3"
+                           placeholder="Ingrese su nombre">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email"
+                           id="correo"
+                           name="correo"
+                           required
+                           placeholder="ejemplo@correo.com">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="tel"
+                           id="telefono"
+                           name="telefono"
+                           pattern="[0-9]{10}"
+                           placeholder="3001234567"
+                           required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="fecha">Fecha de nacimiento:</label><br>
+                    <input type="date"
+                           id="fecha"
+                           name="fecha">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="nivel">Nivel de experiencia:</label><br>
+                    <input type="range"
+                           id="nivel"
+                           name="nivel"
+                           min="1"
+                           max="5"
+                           step="1">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="curso">Curso de interés:</label><br>
+
+                    <select id="curso" name="curso">
+
+                        <option value="html">HTML5</option>
+                        <option value="react">React</option>
+                        <option value="sql">Bases de Datos SQL</option>
+
+                    </select>
+
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="color">Color favorito:</label><br>
+                    <input type="color" id="color" name="color">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="web">Página web:</label><br>
+                    <input type="url"
+                           id="web"
+                           name="web"
+                           placeholder="https://ejemplo.com">
+                </div>
+
+                <br>
+
+                <div>
+
+                    <label>Modalidad:</label><br>
+
+                    <input type="radio"
+                           id="presencial"
+                           name="modalidad"
+                           value="Presencial"
+                           required>
+
+                    <label for="presencial">Presencial</label>
+
+                    <input type="radio"
+                           id="virtual"
+                           name="modalidad"
+                           value="Virtual">
+
+                    <label for="virtual">Virtual</label>
+
+                </div>
+
+                <br>
+
+                <div>
+
+                    <input type="checkbox"
+                           id="terminos"
+                           name="terminos"
+                           required>
+
+                    <label for="terminos">
+                        Acepto los términos y condiciones
+                    </label>
+
+                </div>
+
+                <br>
+
+                <button type="submit">
+                    Enviar inscripción
+                </button>
+
+            </fieldset>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>@animals</p>
+
+</footer>
+
+</body>
+</html>

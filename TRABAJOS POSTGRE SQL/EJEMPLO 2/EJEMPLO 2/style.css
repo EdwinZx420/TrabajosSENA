@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a{
+    color: rgb(27, 102, 77);
+    text-decoration: underline;
+}
+
+main{
+    background-color: lightslategray;
+    display: flex;
+    border-bottom: 5px;
+}
+
+section{
+    text-align: center;
+    background-color: cyan;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    border-radius: 2%;
+    padding: 5px;
+}
+
